@@ -15,7 +15,8 @@
         width: unset;
         height: unset;
 
-        &:hover {
+        &:hover,
+        &.active {
             color: var(--control-active-icon-color);
             opacity: 0.9;
         }
