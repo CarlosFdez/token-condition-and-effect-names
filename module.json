@@ -1,0 +1,28 @@
+{
+  "id": "token-condition-and-effect-names",
+  "title": "Token Condition and Effect Names",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Supe",
+      "url": "https://github.com/CarlosFdez",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "conflicts": [
+      {
+        "id": "monks-little-details",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Adds status effect names to the token hud",
+  "esmodules": ["index.mjs"],
+  "styles": ["index.css"]
+}
