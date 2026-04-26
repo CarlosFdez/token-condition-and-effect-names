@@ -4,6 +4,7 @@
 
 .palette.status-effects.active {
     grid-template-columns: repeat(var(--effect-columns), calc(6rem + var(--effect-size)));
+    height: unset;
 
     .effect-control {
         display: flex;
