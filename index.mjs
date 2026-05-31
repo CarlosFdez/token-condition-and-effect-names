@@ -5,7 +5,7 @@ Hooks.on("renderBasePlaceableHUD", (_hud, html) => {
 
     const effects = statusEffects.querySelectorAll(".effect-control");
     for (const effect of [...effects].filter((e) => !e.querySelector(".effect-name"))) {
-        const title = effect.ariaLabel;
+        const title = effect.ariaLabel || effect.dataset.tooltipText;
         delete effect.dataset.tooltip;
 
         const effectName = document.createElement("div");
